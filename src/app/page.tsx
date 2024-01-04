@@ -1,6 +1,4 @@
-const Button = () => {
-  return <button>Ok</button>;
-};
+import { Button } from "./button";
 
 export default function Home() {
   return (
