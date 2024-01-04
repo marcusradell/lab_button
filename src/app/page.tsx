@@ -1,7 +1,11 @@
+const Button = () => {
+  return <button>Ok</button>;
+};
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <button>Ok</button>
+      <Button />
     </main>
   );
 }
